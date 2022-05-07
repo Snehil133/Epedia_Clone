@@ -1,0 +1,81 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    border-bottom: 1px solid #dedcda;
+}
+
+.header > a i{
+    margin: 1rem 0rem 0rem 1rem;
+    color: blue;
+}
+
+.logo{
+    text-align: center;
+    margin-top: -1.5rem;
+    padding-bottom: .5rem;
+}
+
+form{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    width: 31vw;
+    margin: auto;
+}
+
+form > h1 {
+    margin-top:1rem;
+}
+
+
+form > input {
+    height: 2rem;
+    width: 20rem;
+    border-radius: .3rem;
+}
+
+.keep{
+    display:flex;
+}
+
+.keep > p{
+    margin-left: 1rem;
+}
+
+button{
+    height: 2.5rem;
+    width: 20rem;
+    background-color:#b7c7f1;
+    color: #fff;
+    border-radius:.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+a > p{
+    text-decoration: none;
+}
+
+p > a{
+    text-decoration: none;
+}
+
+.forgot{
+    text-align: center;
+}
+
+.forgot > p{
+    margin-top: .5rem;
+}
+
+.forgot > a{
+    text-decoration:none;
+}

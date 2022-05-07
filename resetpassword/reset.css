@@ -1,0 +1,55 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    border-bottom: 1px solid #dedcda;
+}
+
+.header > a i{
+    margin: 1rem 0rem 0rem 1rem;
+    color: blue;
+}
+
+
+.logo{
+    text-align: center;
+    margin-top: -1.5rem;
+    padding-bottom: .5rem;
+}
+
+.reset{
+    width: 31vw;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.reset > p{
+    margin-top: 1rem;
+}
+
+.reset > input{
+    margin-top: 1rem;
+}
+
+input{
+    height: 2rem;
+    width: 19.8rem;
+    border-radius: .5rem;
+}
+
+
+button{
+    height: 2.5rem;
+    width: 20rem;
+    margin-top: 1rem;
+    background-color:#b7c7f1;
+    color: #fff;
+    border-radius:.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}

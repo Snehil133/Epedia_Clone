@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../signup/signup.css">
+    <script src="https://kit.fontawesome.com/40ca56bbae.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <!-- ***********HEADER*********** -->
+
+    <div class="header">
+       <a href="../NavBar/nav.html"><i class="fa-solid fa-arrow-left"></i></a>
+        <div class="logo">
+
+            <img src="/Images/logo.svg" alt="logo">
+        </div>
+    </div>
+
+
+    <!-- **********CREATE AN ACCOUNT********** -->
+
+    <form>
+        <h1>Create an account</h1>
+        <input class="email"
+         type="email" placeholder="Email address">
+
+        <input class="firstname"
+         type="text" placeholder="First name">
+
+        <input class="surname"
+        type="text" placeholder="Surname">
+
+        <input class="password" type="password" placeholder="Password">
+        <div class="keep">
+            <input type="checkbox">
+            <p>Keep me signed in</p>
+        </div>
+        <p>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</p>
+        <div class="deal">
+
+            <input type="checkbox">
+            <p>I'd like to receive travel deals, special offers and other information from Expedia via email.</p>
+        </div>
+        <p>By creating an account, I agree to the Expedia <a href="Terms and Conditions">Terms and Conditions</a>, <a href="Privacy Satement">Privacy Satement</a> and <a href="Expedia Rewards Terms and Conditions.">Expedia Rewards Terms and Conditions.</a></p>
+        <button onclick="user_data()">
+           <a href="../NavBar/nav.html">Continue</a>
+        </button>
+        <div class="already">
+
+            <p>Already have an account? <a href="../signin/signin.html">Sign in</a> </p>
+            <p>or continue with</p>
+            <div class="social">
+              <a href="https://appleid.apple.com/auth/authorize?response_type=code&client_id=com.expedia.ul.booking.release&response_mode=form_post&scope=name%20email&state=CrRftC2a0wicWRMf1_oGmWYBm0hbdlwOnfLWvvVSk28&nonce=cwjarzjOjC_RSOr60mocr0k_-95eH9zKYGCbsy5R7t4&redirect_uri=https://www.expedia.co.in/eg-auth-svcs/api/v1/oauth2/callback/apple-web&locale=en_GB"><i class="fa-brands fa-apple"></i></a>
+              <a href="https://www.facebook.com/v11.0/dialog/oauth?response_type=code&client_id=131538103586818&response_mode=query&scope=public_profile%20email&state=wIurzJNAj1YUEZeoBRLdzZZaglnwpai16-oLzXkWhfM&redirect_uri=https://www.expedia.co.in/eg-auth-svcs/api/v1/oauth2/callback/facebook-web"><i class="fa-brands fa-facebook-square"></i></a>  
+              <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&client_id=919023678118-cdrmliol1m0qorr1hm0oe877pnrd02rb.apps.googleusercontent.com&response_mode=query&scope=openid%20profile%20email&state=5WubHTbeFBrNxoi2B9aiSQ_DDHYvVnnE9ZVipHFJ53E&nonce=xJLmiwDnuHC_CnL-oYyOqUIX-thy3sRDw_qFbYcm8Iw&redirect_uri=https%3A%2F%2Fwww.expedia.co.in%2Feg-auth-svcs%2Fapi%2Fv1%2Foauth2%2Fcallback%2Fgoogle-web&flowName=GeneralOAuthFlow"><i class="fa-brands fa-google"></i></a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+<script src="signup.js"></script>

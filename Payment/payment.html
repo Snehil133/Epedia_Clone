@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://kit.fontawesome.com/40ca56bbae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- *************NAV BAR*************** -->
+
+    <div class="nav">
+        <div class="logo">
+          <a href="../NavBar/nav.html"><img src="../Images/logo.svg" alt="Expedia logo"></a>
+        </div>
+    <div class="user">
+        <p>Hello, User</p>
+    </div>
+    </div>
+    <div class="main">
+        <h2>Review and book</h2>
+
+        <section class="covid">
+            <div class="left">
+              <i class="fa-solid fa-triangle-exclamation covidIcon"></i></div>
+            <div class="right close">
+              <p>Check COVID-19 restrictions.</p>
+              <div class="bottom" > <div> <a href="">Find out more</a>
+              </div>
+              <div> <a href="">Dismiss</a> </div></div>
+           </div>
+          </section>
+
+        <!-- ********First****** -->
+
+        <div class="signed">
+            <i class="fa-solid fa-lock"></i>
+            <div class="email">
+                <p>Signed in as</p>
+                <p>You will earn 115 Expedia Rewards points</p>
+            </div>
+        </div>
+
+        <!-- **********Second********* -->
+
+        <div class="room">
+            <i class="fa-solid fa-user"></i>
+            <div class="details">
+                <p>Traveller name*</p>
+               <select>
+                   <option>
+                       -------
+                </option>
+                <option>
+                       <h4>New Traveller</h4>
+                       <ol>
+                           <li>Add a new traveller</li>
+                        </ol>
+                    </option>
+               </select>
+               <div class="name">
+
+                   <div class="firstname">
+                       <p>First name</p>
+                       <input type="text" placeholder="(e.g. John)" required>
+                    </div>
+                       <div class="surname">
+                           <p>Surname</p>
+                           <input type="text" placeholder="(e.g. Smith)" required>
+                       </div>
+               </div>
+            </div>
+            <div class="mobile">
+
+                <p>Mobile phone number*</p>
+            </div>
+            <div class="code">
+                <select>
+                        <option value="">India +91</option>
+                        <option value="">Iceland +354</option>
+                        <option value="">Hong Kong SAR +852</option>
+                        <option value="">Singapore +65</option>
+                </select>
+                <div class="number">
+                    <input type="number" placeholder="So the property can reach you" required>
+                </div>
+            </div>
+            <div class="alert">
+                <input type="checkbox">
+                <p>Receive text alerts about this trip (free of charge)</p>
+            </div>
+        </div>
+        
+        
+        <!-- ******************PAYMENT************* -->
+        
+        <div class="payment">
+            <i class="fa-solid fa-credit-card"></i>
+            <div class="main1">
+                <div class="options">
+                    <p>Debit/Credit Card</p>
+                    <p>NetBanking</p>
+                </div>
+                <div class="cards">
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-cc-amex"></i>
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-visa"></i>
+                </div>
+                <div class="name1">
+                    <p>Name on Card*</p>
+                    <input type="text" required>
+                </div>
+            <div class="debit">
+                <p>Debit/Credit card Number*</p>
+                <input type="number">
+            </div>
+            <div class="expirydate">
+                <p>Expiry date*</p>
+                <p>Please choose a valid month and year.</p>
+            </div>
+            <div class="expiry">
+                <select>
+                    <option>Month</option>
+                    <option>01-Jan</option>
+                    <option>02-Feb</option>
+                    <option>03-Mar</option>
+                    <option>04-Apr</option>
+                    <option>05-May</option>
+                    <option>06-Jun</option>
+                    <option>07-Jul</option>
+                    <option>08-Aug</option>
+                    <option>09-Sep</option>
+                    <option>10-Oct</option>
+                    <option>11-Nov</option>
+                    <option>12-Dec</option>
+                </select>
+                <div class="year">
+                    <select>
+                        <option>Year</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
+                        <option>2032</option>
+                    </select>
+                </div>
+            </div>
+            <div class="security">
+                <p>Security code*</p>
+                <input type="number">
+            </div>
+            <div class="billing">
+                <p>Billing country/territory*</p>
+                <select>
+                    <option>India</option>
+                    <option>Iceland</option>
+                    <option>Hungary</option>
+                    <option>Hong Kong</option>
+                </select>
+            </div>
+            <div class="pan">
+                <p>PAN*</p>
+                <input type="text" required>
+            </div>
+        </div>
+
+
+        <!-- ************MANAGE YOUR BOOKING******** -->
+
+        <div class="main2">
+            <div class="manage">
+                <div class="booking">
+                    <h2>Manage your booking</h2>
+                </div>
+                <div class="confirmation">
+                    <p><strong>Confirmation email</strong></p>
+                </div>
+                <p>Please enter the email address where you would like to receive your confirmation.</p>
+                <div class="email1">
+                    <p>Email address*</p>
+                    <input type="email">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox">
+                <div class="text">
+                    <p>Please send me Expedia eamils with travel deals, special offers and other infromation.</p>
+                </div>
+            </div>
+            
+            <div class="create">
+                <p><strong>Create an account</strong></p>
+                <p>Enter a password to create an account using the email address above.</p>
+            </div>
+            <div class="createpassword">
+                <p>Create password</p>
+                <input type="password" placeholder="6-30 characters, no spaces">
+            </div>
+            <div class="confirmpassword">
+                <p>Confirm Password</p>
+                <input type="passwword">
+            </div>
+            <div class="term">
+                <p>By creating an account, I agree to the <a href="Terms of use.html">Terms of Use,</a> <a href="Privacy policy.html">Privacy Policy,</a> and <a href="Expedia Rewards Terms and Conditions.">Expedia Rewards Terms and Conditions.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***********INFORMATION********* -->
+
+    <div class="main3">
+
+        <div class="important">
+            <p><strong>Important information about your booking</strong></p>
+        </div>
+        <div class="list">
+            <ul>
+                <li>This rate is non-refundable. If you change or cancel your booking you will not get a refund or credit to use for a future stay. This policy will apply regardless of COVID-19, subject to any local consumer laws.</li>
+                
+                <li>No refunds will be issued for late check-in or early check-out.</li>
+                
+                <li>Stay extensions require a new reservation.</li>
+                
+                <li>Front desk staff will greet guests on arrival.</li>
+                
+                <li>Please note that BEX Travel Asia Pte Ltd and the hotel will not issue a tax invoice. You will receive a commercial receipt for the purpose of the transaction.</li>
+                
+                <li>You'll be asked to pay the following charges at the property:
+                    <ul class="extra">
+                        <li>A tax is imposed by the city: EUR 3.00 per person, per night, up to 8 nights. This tax does not apply to children under 14 years of age.</li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+        <div class="clicking">
+
+            <p>By clicking on the button below, I acknowledge that I have reviewed the <a href="Privacy Statement">Privacy Statement</a>  Opens in a new window. and <a href=" Government Travel Advice"> Government Travel Advice</a> Opens in a new window. and have reviewed and accept the <a href="Rules & Restrictions">Rules & Restrictions</a>  Opens in a new window. and <a href="Terms of Use">Terms of Use</a>  Opens in a new window..</p>
+        </div>
+
+        <a href="../otp/otp.html"> <button>Complete booking ></button> </a>
+    </div>
+
+    <div class="main4">
+
+        <div class="tell">
+            <a href="#"><p>[+] Tell us what you think</p></a> 
+        </div>
+    <div class="important">
+        
+        <div class="privacy">
+            <a href="#"> <p>Privacy Policy</p></a>
+                <a href="#"> <p>Terms of Use</p></a>
+            </div>
+            <div class="link">
+
+            <a href="#"><p>2022 Expedia, Inc, an Expedia Group Company.</p></a>
+            <p>/ Expedia Asia Holdings Mauritius</p>
+        </div>
+        <p class="bex">BEX Travel Asia Pte Ltd. All rights reserved.</p>
+    </div>
+    
+    <div class="logo">
+        <img src="../Images/6.png" alt="logo">
+    </div>
+    
+    <div class="group">
+        <a href=""> <img src="../Images/5.jpg" alt="expedia group"> </a>
+    </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

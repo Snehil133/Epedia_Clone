@@ -1,0 +1,25 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.success{
+    width: 31vw;
+    margin: auto;
+    margin-top:5rem;
+}
+
+button{
+    height: 2.5rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    background-color:#b7c7f1;
+    color: #fff;
+    border-radius:.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}

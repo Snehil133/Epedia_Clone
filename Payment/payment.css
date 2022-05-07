@@ -1,0 +1,452 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav{
+    /* border-bottom: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 3.5rem;
+    width: 80rem;
+    display: flex;
+    margin-top: 1rem;
+    /* justify-content: space-between; */
+}
+
+
+.logo > a{
+    margin-left: 5rem;
+}
+
+
+.user{
+    margin-left: 55rem;
+}
+
+
+
+.main{
+    height: 405vh;
+    width: 93vw;
+    margin: auto;
+    background-color:#ededed;
+}
+
+
+.covid{
+    display: flex;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color:  #f0dcb4;
+    border-radius: 0.5rem;
+    color: #7f5c0d;
+}
+
+
+.covid .left{
+    margin: 1rem;
+    margin-right: 1.8rem;
+}
+
+
+.covid .left .covidIcon{
+    font-size: 1.8rem;
+}
+
+
+.covid .right p{
+    padding-bottom: 0.8rem;
+}
+
+
+.covid .right .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.covid .right .bottom a{
+    text-decoration: underline;
+    color: #7f5c0d;
+    
+}
+
+
+.signed{
+    display: flex;
+    
+}
+
+
+.details > select{
+    height: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+
+.details > p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.email{
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+.room{
+    border: 1px solid black;
+    height: 20rem;
+    width: 35rem;
+    background-color: #fff;
+    
+}
+
+.room > i{
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-right: 8rem;
+    margin-left: 2rem;
+}
+
+
+.firstname > p{
+    margin-bottom: 1rem;
+    
+}
+
+
+.surname > p{
+    margin-bottom: 1rem;
+    
+}
+
+
+.code{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.mobile{
+    margin-left: 2rem;
+}
+
+
+.number > input{
+    width: 16rem;
+}
+
+
+.alert{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+}
+
+
+/* **************PAYMENT************* */
+
+
+.main1{
+    margin-left: 2rem;
+}
+.payment{
+    border: 1px solid black;
+    height: 30rem;
+    width: 35rem;
+    margin-top: 1.5rem;
+    background-color: #fff;
+}
+
+
+.options{
+    border-bottom: 1px solid #dedcda;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cards{
+    margin-bottom: 1rem;
+}
+
+.name1{
+    margin-bottom: 1rem;
+}
+
+.name1 > p{
+    margin-bottom: .5rem;
+}
+
+.debit{
+    margin-bottom: 1rem;
+}
+
+.debit > p{
+    margin-bottom: .5rem;
+}
+
+.expirydate{
+    margin-bottom: 1rem;
+}
+
+.expiry{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.expiry,.year > select{
+    width: 5rem;
+    /* margin-top: 1rem; */
+}
+
+.security{
+    margin-bottom: 1rem;
+}
+
+.security > P{
+    margin-bottom: .5rem;
+}
+
+.billing > p{
+    margin-bottom: .5rem;
+}
+
+.billing > select{
+    margin-bottom: 1rem;
+}
+
+.pan > p{
+    margin-bottom: .5rem;
+}
+
+
+
+/* ************MNAGE YOUR BOOKING*********** */
+
+.main2{
+    border: 1px solid black;
+    margin-top: 3rem;
+    width: 35rem;
+    background-color: #fff;
+}
+
+.manage{
+    margin-left: 2rem;
+}
+
+.booking{
+    border-bottom: 1px solid #dedcda;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.checkbox {
+    display: flex;
+}
+
+.confirmation > p{
+    margin-bottom: 1rem;
+}
+
+.email1{
+    margin-top: 1rem;
+}
+
+.email1 > p{
+    margin-bottom: .5rem;
+}
+
+.email1 > input{
+    width: 15rem;
+}
+
+.checkbox {
+    margin-top: 1rem;
+}
+
+.create{
+    margin-top: 1rem;
+}
+
+.create > p {
+    margin-bottom: 1rem;
+}
+
+.createpassword{
+    margin-bottom: 1rem;
+}
+
+.createpassword > p{
+    margin-bottom: .5rem;
+}
+
+.createpassword > input{
+    width: 13rem;
+}
+
+.confirmpassword > p{
+    margin-bottom: .5rem;
+}
+
+.confirmpassword > input{
+    width: 13rem;
+}
+
+.term{
+    margin-top: 1rem;
+}
+
+.term > p > a {
+    text-decoration: none;
+}
+
+
+
+/* ***********IMPORTANT********** */
+
+.main3{
+    border: 1px solid black;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+
+
+.list{
+    margin-left: 1.5rem;
+    overflow: scroll;
+}
+
+.list > ul > li {
+    margin-top: 1rem;
+}
+
+.important .list > ul > li::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .important .list > ul > li::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .important .list > ul > li::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .important .list > ul > li::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.clicking > p{
+    margin-left:1rem;
+}
+
+
+.clicking > p > a{
+    text-decoration: none;
+}
+
+
+button{
+    height: 2.5rem;
+    width: 12rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: #ffc745;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.main4{
+    /* border: 1px solid black; */
+    width: 50rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.tell{
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.tell > a{
+    text-decoration: none;
+    color: #6c6161;
+}
+
+.tell > a:hover{
+    text-decoration: underline #6c6161;
+}
+
+
+.bex{
+    margin: 1rem 0rem 1rem -15rem;
+    color: #6c6161;;
+}
+
+
+.privacy{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 2rem;
+    margin: 0rem 0rem 1rem 8.5rem;
+}
+
+.privacy > a{
+    text-decoration: none;
+    color: #6c6161;
+}
+
+.privacy > a:hover{
+    text-decoration: underline #6c6161;
+}
+
+
+.link{
+    display: flex;
+    margin-left: 8.5rem;
+}
+
+
+.link > a{
+    text-decoration: none;
+    color:#6c6161;
+}
+
+.link > p{
+    color: #6c6161;;
+}
+
+.link > a:hover{
+    text-decoration: underline #6c6161;;
+}
+
+
+.group > a > img{
+    width: 10rem;
+}
